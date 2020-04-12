@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Register</h1>
+    <h1>Registe hellor</h1>
   </div>
 </template>
 
