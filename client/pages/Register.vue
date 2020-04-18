@@ -54,6 +54,7 @@ export default {
           return
         }
         this.$store.dispatch('registerUser', {...this.form})
+        this.form.name = this.form.email = this.form.password = ''
       })
     }
   }
