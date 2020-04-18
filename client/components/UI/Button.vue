@@ -3,6 +3,7 @@
     <button 
       :class="`button-${className}`" 
       :type="type"
+      @click="$emit('click')"
     >
       {{ text }}
     </button>
